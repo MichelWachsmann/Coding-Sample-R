@@ -6,8 +6,7 @@
 
 ## Overview
 
-This repository contains the code, data, and output for the Research Assistant 
-Assessment.
+This repository contains the code, data, and output for the Coding Sample (R).
 
 **Task 1** estimates the effect of democratic transitions (into and out of 
 democracy) on log GDP per capita using a country-year panel of 184 countries from 1970 to 2010. The main estimator is de Chaisemartin and D'Haultfœuille (2020, 2024), chosen because treatment (democracy) is non-absorbing — countries can transition into and out of democracy multiple times. A stacked DID estimator (Cengiz et al., 2019) is constructed as a comparison.
