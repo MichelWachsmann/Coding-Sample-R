@@ -1,0 +1,782 @@
+row_id,comune,data_elezioni,check_category,check_name,severity,description,recommended_action
+188,Montemesola,30/11/1952,Duplicates,near_duplicate,high,Same municipality code and election date but differing values.,manual_review
+192,Morciano di Leuca,26/10/1952,Duplicates,near_duplicate,high,Same municipality code and election date but differing values.,manual_review
+198,Orsara di Puglia,23/05/1954,Duplicates,near_duplicate,high,Same municipality code and election date but differing values.,manual_review
+220,Sammichele di Bari,23/05/1954,Duplicates,near_duplicate,high,Same municipality code and election date but differing values.,manual_review
+237,Serracapriola,23/05/1954,Duplicates,near_duplicate,high,Same municipality code and election date but differing values.,manual_review
+319,Montemesola,30/11/1952,Duplicates,near_duplicate,high,Same municipality code and election date but differing values.,manual_review
+322,Morciano Di Leuca,26/10/1952,Duplicates,near_duplicate,high,Same municipality code and election date but differing values.,manual_review
+327,Orsara Di Puglia,23/05/1954,Duplicates,near_duplicate,high,Same municipality code and election date but differing values.,manual_review
+347,Sammichele Di Bari,23/05/1954,Duplicates,near_duplicate,high,Same municipality code and election date but differing values.,manual_review
+363,Serracapriola,23/05/1954,Duplicates,near_duplicate,high,Same municipality code and election date but differing values.,manual_review
+552,MONTE SANT'ANGELO,11/11/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+553,SAN GIOVANNI ROTONDO,11/11/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+554,SAN MARCO IN LAMIS,11/11/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+555,TRINITAPOLI,11/11/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+556,CASABANO,10/06/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+557,GALATINA,10/06/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+558,MAGLIE,17/11/1963,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+559,TREPUZZI,10/06/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+560,CASTELLANETA,17/11/1963,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+561,MOTTOLA,10/06/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+562,SAVA,10/06/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+563,ADELFIA,10/06/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+564,BARI,10/06/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+565,BITONTO,10/06/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+566,CANOSA DI PUGLIA,10/06/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+567,CORATO,11/11/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+568,GIOIA DEL COLLE,10/11/1963,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+569,MINERVINO MURGE,11/11/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+570,MOLFETTA,10/06/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+571,TERLIZZI,10/11/1963,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+572,TURI,10/11/1963,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+573,CEGLIE MESSAPICO,02/12/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+574,CISTERNINO,17/11/1963,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+575,OSTUNI,02/12/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+576,LUCERA,17/11/1963,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+577,MANFREDONIA,10/06/1962,OCR_name,all_caps_comune,low,"Municipality name in ALL CAPS, likely OCR artifact.",auto_correct_to_title_case
+24,Acquaviva Delle Fonti,07/06/1970,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+30,Cassano Delle Murge,07/06/1970,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+56,San Vito Dei Normanni,07/06/1970,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+274,Bagnolo Del Salento,27/05/1956,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+279,Caprarica Di Lecce,27/05/1956,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+284,Cassano Delle Murge,27/05/1956,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+285,Castri Di Lecce,27/05/1956,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+287,Castrignano Del Capo,27/05/1956,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+298,Gagliano Del Capo,27/05/1956,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+316,Minervino Di Lecce,27/05/1956,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+318,Monteleone Di Puglia,27/05/1956,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+320,Monteroni Di Lecce,27/05/1956,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+322,Morciano Di Leuca,26/10/1952,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+327,Orsara Di Puglia,23/05/1954,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+347,Sammichele Di Bari,23/05/1954,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+348,San Cesario Di Lecce,27/05/1956,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+350,San Donato Di Lecce,27/05/1956,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+355,San Paolo Di Civitate,27/05/1956,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+356,San Pietro In Lama,27/05/1956,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+358,Sannicandro Di Bari,27/05/1956,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+360,Sant'Agata Di Puglia,27/05/1956,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+381,Vico Del Gargano,27/05/1956,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+387,Gioia Del Colle,27/10/1957,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+397,Sammichele Di Bari,09/11/1958,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+398,San Marco In Lamis,12/10/1958,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+399,Santeramo In Colle,09/11/1958,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+401,Acquarica Del Capo,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+409,Bagnolo Del Salento,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+417,Caprarica Di Lecce,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+426,Casalvecchio Di Puglia,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+427,Cassano Delle Murge,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+428,Castelluccio Dei Sauri,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+430,Castelnuovo Della Daunia,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+431,Castri Di Lecce,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+433,Castrignano Del Capo,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+448,Gagliano Del Capo,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+465,Minervino Di Lecce,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+466,Monteleone Di Puglia,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+469,Monteroni Di Lecce,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+496,San Cesario Di Lecce,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+497,San Donato Di Lecce,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+499,San Marzano Di San Giuseppe,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+502,San Paolo Di Civitate,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+503,San Pietro In Lama,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+505,Sannicandro Di Bari,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+530,Vico Del Gargano,06/11/1960,OCR_name,preposition_capitalization,low,"Preposition incorrectly capitalized (e.g., 'Di' instead of 'di').",auto_correct_prepositions
+149,Castelluccio Val maggio re,25/05/1952,OCR_name,spurious_spaces,low,Municipality name contains spurious spaces (OCR line break).,auto_correct_merge_words
+2,Soleto,13/06/1971,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+4,Bitonto,13/06/1971,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+10,San Giovanni Rotondo,13/06/1971,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+15,Vico del Gargano,13/06/1971,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+18,Casarano,13/06/1971,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+20,Trepuzzi,13/06/1971,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+29,Canosa di Puglia,07/06/1970,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+39,Molfetta,07/06/1970,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+45,Santeramo in Colle,07/06/1970,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+46,Torito,07/06/1970,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+62,Orsara di Puglia,07/06/1970,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+67,Vico del Gargano,07/06/1970,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+72,Carmiano,07/06/1970,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+73,Castrignano del Capo,07/06/1970,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+93,San Cesario di Lecce,07/06/1970,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+108,San Marzano di San Giuseppe,07/06/1970,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+110,Adelfia,18/11/1973,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+112,Sannicandro di Bari,18/11/1973,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+118,Monte Sant'Angelo,18/11/1973,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+119,San Marco in Lamis,18/11/1973,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+121,San Paolo di Civitate,18/11/1973,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+136,Bagnolo del Salento,10/06/1951,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+141,Caprarica di Lecce,10/06/1951,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+143,Carmiano,10/06/1951,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+148,Casalvecchio di Puglia,25/05/1952,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+150,Castelluccio dei Sauri,25/05/1952,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+151,Castelnuovo della Daunia,25/05/1952,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+152,Castri di Lecce,10/06/1951,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+153,Castrignano de' Greci,10/06/1951,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+154,Castrignano del Capo,25/05/1952,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+160,Corigliano d'Otranto,10/06/1951,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+168,Gagliano del Capo,10/06/1951,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+185,Minervino di Lecce,10/06/1951,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+187,Monteleone di Puglia,25/05/1952,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+190,Monteroni di Lecce,10/06/1951,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+192,Morciano di Leuca,26/10/1952,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+198,Orsara di Puglia,23/05/1954,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+220,Sammichele di Bari,23/05/1954,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+221,San Cesario di Lecce,10/06/1951,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+223,San Donato di Lecce,10/06/1951,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+225,San Marco la Catola,25/05/1952,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+226,San Marzano di San Giuseppe,10/06/1951,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+229,San Paolo di Civitate,25/05/1952,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+230,San Pietro in Lama,10/06/1951,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+233,Sant'Agata di Puglia,25/05/1952,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+239,Solato,10/06/1951,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+250,Torch iarolo,10/06/1951,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+254,Uggiano la Chiesa,10/06/1951,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+256,Vico del Gargano,25/05/1952,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+261,Carciano,25/05/1952,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+281,Carmiano,27/05/1956,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+286,Castrignano De' Greci,27/05/1956,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+292,Corigliano D'Otranto,27/05/1956,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+352,San Marco La Catola,27/05/1956,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+374,Torchiarolo,27/05/1956,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+375,Toritto,27/05/1956,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+379,Uggiano La Chiesa,27/05/1956,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+389,Ceglie Messafico,23/11/1958,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+390,Cisternino,23/11/1958,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+392,Manfredonia,12/10/1958,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+393,Minervino Murge,09/11/1958,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+394,Monte Sant'Angelo,12/10/1958,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+395,Mottola,09/11/1958,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+396,Ostuni,23/11/1958,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+400,Trinitapoli,12/10/1958,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+421,Carmiano,06/11/1960,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+429,Castelluccio Valmaggiore,06/11/1960,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+432,Castrignano De' Greci,06/11/1960,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+440,Corigliano D'Otranto,06/11/1960,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+510,Soleto,06/11/1960,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+521,Torchiarolo,06/11/1960,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+522,Toritto,06/11/1960,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+528,Uggiano La Chiesa,06/11/1960,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+535,Torchiarolo,17/11/1968,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+539,Sannicandro di Bari,17/11/1968,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+545,San Marco in Lamis,17/11/1968,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+547,San Paolo di Civitate,17/11/1968,OCR_name,name_code_mismatch,medium,Same PRO_COM2011 code maps to multiple municipality names.,manual_review_name
+58,Apricena,07/06/1970,Vote_logic,votanti_gt_elettori,critical,Voters exceed registered voters. Likely OCR digit error in elettori.,manual_review
+568,GIOIA DEL COLLE,10/11/1963,Vote_logic,votanti_gt_elettori,critical,Voters exceed registered voters. Likely OCR digit error in elettori.,manual_review
+367,Stornara,27/05/1956,Vote_logic,extreme_turnout,medium,Turnout below 30% or above 99%. May indicate OCR digit errors.,manual_review
+384,Volturino,27/05/1956,Vote_logic,extreme_turnout,medium,Turnout below 30% or above 99%. May indicate OCR digit errors.,manual_review
+571,TERLIZZI,10/11/1963,Vote_logic,extreme_turnout,medium,Turnout below 30% or above 99%. May indicate OCR digit errors.,manual_review
+4,Bitonto,13/06/1971,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+5,Putignano,22/11/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+6,Rutigliano,22/11/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+7,Ruvo di Puglia,13/06/1971,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+8,Candela,13/06/1971,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+9,San Ferdinando di Puglia,13/06/1971,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+10,San Giovanni Rotondo,13/06/1971,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+11,San Severo,13/06/1971,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+12,Serracapriola,13/06/1971,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+13,Torremaggiore,13/06/1971,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+14,Troia,13/06/1971,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+15,Vico del Gargano,13/06/1971,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+16,Vieste,13/06/1971,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+17,Aradeo,22/11/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+18,Casarano,13/06/1971,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+19,Melissano,22/11/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+20,Trepuzzi,13/06/1971,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+21,Ugento,22/11/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+22,Avetrana,13/06/1971,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+23,Crispiano,13/06/1971,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+24,Acquaviva Delle Fonti,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+25,Alberobello,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+26,Altamura,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+27,Bisceglie,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+28,Bitetto,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+29,Canosa di Puglia,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+30,Cassano Delle Murge,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+31,Castellana Grotte,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+32,Conversano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+33,Giovinazzo,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+34,Gravina in Puglia,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+35,Grumo Appula,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+36,Locorotondo,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+37,Modugno,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+39,Molfetta,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+40,Monopoli,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+41,Noci,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+42,Noicattaro,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+43,Palo del Colle,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+44,Polignano A Mare,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+45,Santeramo in Colle,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+46,Torito,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+47,Triggiano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+48,Valenzano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+49,Brindisi,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+50,Carovigno,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+51,Erchie,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+52,Francavilla Fontana,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+53,Latiano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+54,Mesagne,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+55,San Pancrazio Salentino,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+56,San Vito Dei Normanni,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+57,Torre Santa Susanna,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+58,Apricena,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+59,Bovino,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+60,Cerignola,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+61,Mattinata,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+62,Orsara di Puglia,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+63,Orta Nova,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+64,San Ferdinando di Puglia,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+65,San Severo,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+66,Serracapriola,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+67,Vico del Gargano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+68,Vieste,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+69,Alessano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+70,Alezio,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+71,Calimera,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+72,Carmiano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+73,Castrignano del Capo,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+74,Collepasso,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+75,Copertino,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+76,Cutrofiano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+77,Galatone,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+78,Guagnano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+79,Lecce,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+80,Lequile,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+81,Lizzanello,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+82,Martano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+83,Melendugno,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+84,Melissano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+85,Muro Leccese,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+86,Neviano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+87,Novoli,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+88,Parabita,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+89,Poggiardo,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+90,Ruffano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+91,Salice Salentino,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+92,Salve,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+93,San Cesario di Lecce,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+94,Scorrano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+95,Surbo,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+96,Taurisano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+97,Taviano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+98,Tuglie,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+99,Crispiano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+100,Fragagnano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+101,Grottaglie,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+102,Manduria,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+103,Martina Franca,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+104,Massafra,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+105,Palagiano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+106,Pulsano,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+107,San Giorgio Ionico,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+108,San Marzano di San Giuseppe,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+109,Taranto,07/06/1970,Vote_accounting,schede_bianche_in_invalidi,low,Schede bianche appear included in voti_non_validi. The 2-way identity (votanti = voti_non_validi + totalevotilista) holds.,note_coding_convention
+1,Poggiorsini,22/11/1970,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+2,Soleto,13/06/1971,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+3,Surano,22/11/1970,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+38,Mola di Bari,07/06/1970,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+552,MONTE SANT'ANGELO,11/11/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+553,SAN GIOVANNI ROTONDO,11/11/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+554,SAN MARCO IN LAMIS,11/11/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+555,TRINITAPOLI,11/11/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+556,CASABANO,10/06/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+557,GALATINA,10/06/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+558,MAGLIE,17/11/1963,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+559,TREPUZZI,10/06/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+560,CASTELLANETA,17/11/1963,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+561,MOTTOLA,10/06/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+562,SAVA,10/06/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+563,ADELFIA,10/06/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+564,BARI,10/06/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+565,BITONTO,10/06/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+566,CANOSA DI PUGLIA,10/06/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+567,CORATO,11/11/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+568,GIOIA DEL COLLE,10/11/1963,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+569,MINERVINO MURGE,11/11/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+570,MOLFETTA,10/06/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+571,TERLIZZI,10/11/1963,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+572,TURI,10/11/1963,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+573,CEGLIE MESSAPICO,02/12/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+574,CISTERNINO,17/11/1963,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+575,OSTUNI,02/12/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+576,LUCERA,17/11/1963,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+577,MANFREDONIA,10/06/1962,Vote_accounting,vote_total_mismatch,high,"Votanti does not equal voti_non_validi + schede_bianche + totalevotilista, nor voti_non_validi + totalevotilista. Likely OCR error in one or more fields.",manual_review
+133,Aradeo,10/06/1951,Seat_accounting,seat_total_mismatch,high,Party seats do not sum to total seats. Likely missing party data for early elections.,manual_review
+159,Collepasso,10/06/1951,Seat_accounting,seat_total_mismatch,high,Party seats do not sum to total seats. Likely missing party data for early elections.,manual_review
+160,Corigliano d'Otranto,10/06/1951,Seat_accounting,seat_total_mismatch,high,Party seats do not sum to total seats. Likely missing party data for early elections.,manual_review
+256,Vico del Gargano,25/05/1952,Seat_accounting,seat_total_mismatch,high,Party seats do not sum to total seats. Likely missing party data for early elections.,manual_review
+277,Calimera,27/05/1956,Seat_accounting,seat_total_mismatch,high,Party seats do not sum to total seats. Likely missing party data for early elections.,manual_review
+419,Carapelle,06/11/1960,Seat_accounting,seat_total_mismatch,high,Party seats do not sum to total seats. Likely missing party data for early elections.,manual_review
+443,Cursi,06/11/1960,Seat_accounting,seat_total_mismatch,high,Party seats do not sum to total seats. Likely missing party data for early elections.,manual_review
+262,Brindisi,27/05/1956,Vote_accounting,listvote_total_mismatch,high,Party votes do not sum to total list votes. Likely missing party or OCR error.,manual_review
+264,Taranto,27/05/1956,Vote_accounting,listvote_total_mismatch,high,Party votes do not sum to total list votes. Likely missing party or OCR error.,manual_review
+319,Montemesola,30/11/1952,Vote_accounting,listvote_total_mismatch,high,Party votes do not sum to total list votes. Likely missing party or OCR error.,manual_review
+339,Rignano Garganico,27/05/1956,Vote_accounting,listvote_total_mismatch,high,Party votes do not sum to total list votes. Likely missing party or OCR error.,manual_review
+397,Sammichele Di Bari,09/11/1958,Vote_accounting,listvote_total_mismatch,high,Party votes do not sum to total list votes. Likely missing party or OCR error.,manual_review
+468,Monteparano,06/11/1960,Vote_accounting,listvote_total_mismatch,high,Party votes do not sum to total list votes. Likely missing party or OCR error.,manual_review
+514,Stornarella,06/11/1960,Vote_accounting,listvote_total_mismatch,high,Party votes do not sum to total list votes. Likely missing party or OCR error.,manual_review
+574,CISTERNINO,17/11/1963,Vote_accounting,listvote_total_mismatch,high,Party votes do not sum to total list votes. Likely missing party or OCR error.,manual_review
+576,LUCERA,17/11/1963,Vote_accounting,listvote_total_mismatch,high,Party votes do not sum to total list votes. Likely missing party or OCR error.,manual_review
+110,Adelfia,18/11/1973,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+111,Casamassima,18/11/1973,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+112,Sannicandro di Bari,18/11/1973,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+113,Fasano,18/11/1973,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+114,San Michele Salentino,18/11/1973,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+115,Villa Castelli,18/11/1973,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+116,Cagnano Varano,18/11/1973,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+117,Margherita di Savoia,18/11/1973,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+118,Monte Sant'Angelo,18/11/1973,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+119,San Marco in Lamis,18/11/1973,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+120,Sannicandro Garganico,18/11/1973,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+121,San Paolo di Civitate,18/11/1973,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+122,Alliste,18/11/1973,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+123,Ruffano,18/11/1973,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+124,Squinzano,18/11/1973,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+125,Ginosa,18/11/1973,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+126,Accadia,23/05/1954,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+127,Alberona,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+128,Alessano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+129,Alezio,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+130,Alliste,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+131,Andrano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+132,Anzano di Puglia,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+133,Aradeo,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+134,Arnesano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+135,Avetrana,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+136,Bagnolo del Salento,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+137,Biccari,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+138,Bovino,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+139,Cagnano Varano,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+140,Cannole,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+141,Caprarica di Lecce,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+142,Carlantino,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+143,Carmiano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+144,Carosino,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+145,Carpignano Salentino,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+146,Carpino,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+147,Casalnuovo Monterotaro,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+148,Casalvecchio di Puglia,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+149,Castelluccio Val maggio re,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+150,Castelluccio dei Sauri,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+151,Castelnuovo della Daunia,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+152,Castri di Lecce,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+153,Castrignano de' Greci,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+154,Castrignano del Capo,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+155,Cavallino,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+156,Celenza Valfortore,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+157,Celle San Vito,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+158,Chieuti,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+159,Collepasso,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+160,Corigliano d'Otranto,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+161,Crispiano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+162,Cutrofiano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+163,Deliceto,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+164,Disc,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+165,Erchie,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+166,Faeto,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+167,Fragagnano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+168,Gagliano del Capo,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+169,Giuggianello,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+170,Giurdignano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+171,Guagnano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+172,Ischitella,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+173,Isole Tremiti,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+174,Leporano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+175,Lequile,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+176,Lesina,23/05/1954,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+177,Leverano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+178,Lizzanello,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+179,Martano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+180,Matino,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+181,Melendugno,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+182,Melissano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+183,Melpignano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+184,Miggiano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+185,Minervino di Lecce,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+186,Monteiasi,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+187,Monteleone di Puglia,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+188,Montemesola,30/11/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+189,Monteparano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+190,Monteroni di Lecce,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+191,Montesano Salentino,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+192,Morciano di Leuca,26/10/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+193,Motta Montecorvino,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+194,Muro Leccese,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+195,Neviano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+196,Nociglia,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+197,Novoli,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+198,Orsara di Puglia,23/05/1954,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+199,Ortelle,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+200,Otranto,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+201,Palagianello,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+202,Palagiano,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+203,Palmariggi,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+204,Panni,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+205,Parabita,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+206,Patu,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+207,Peschici,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+208,Pietramontecorvino,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+209,Poggiardo,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+210,Poggio Imperiale,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+211,Pulsano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+212,Rignano Garganico,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+213,Roccaforzata,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+214,Rocchetta Sant'Antonio,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+215,Rodi Garganico,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+216,Roseto Valfortore,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+217,Ruffano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+218,Salice Salentino,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+219,Salve,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+220,Sammichele di Bari,23/05/1954,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+221,San Cesario di Lecce,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+222,San Donaci,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+223,San Donato di Lecce,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+224,San Giorgio Ionico,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+225,San Marco la Catola,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+226,San Marzano di San Giuseppe,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+227,San Michele Salentino,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+228,San Pancrazio Salentino,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+229,San Paolo di Civitate,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+230,San Pietro in Lama,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+231,Sanarica,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+232,Sannicola,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+233,Sant'Agata di Puglia,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+234,Santa Cesarea Terme,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+235,Scorrano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+236,Secli,26/10/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+237,Serracapriola,23/05/1954,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+238,Sogliano Cavour,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+239,Solato,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+240,Specchia,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+241,Spongano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+242,Sternatia,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+243,Stornara,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+244,Stornarella,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+245,Supersano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+246,Surbo,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+247,Taurisano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+248,Taviano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+249,Tiggiano,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+250,Torch iarolo,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+251,Torre Santa Susanna,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+252,Tuglie,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+253,Ugento,26/10/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+254,Uggiano la Chiesa,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+255,Vernole,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+256,Vico del Gargano,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+257,Villa Castelli,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+258,Volturara Appula,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+259,Volturino,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+260,Zollino,10/06/1951,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+261,Carciano,25/05/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+262,Brindisi,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+263,Foggia,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+264,Taranto,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+265,Alberobello,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+266,Alberona,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+267,Alessano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+268,Alezio,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+269,Alliste,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+270,Andrano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+271,Aradeo,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+272,Arnesano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+273,Avetrana,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+274,Bagnolo Del Salento,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+275,Bitetto,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+276,Bitritto,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+277,Calimera,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+278,Cannole,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+279,Caprarica Di Lecce,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+280,Capurso,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+281,Carmiano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+282,Carosino,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+283,Carpignano Salentino,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+284,Cassano Delle Murge,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+285,Castri Di Lecce,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+286,Castrignano De' Greci,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+287,Castrignano Del Capo,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+288,Cavallino,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+289,Cellamare,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+290,Chieuti,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+291,Collepasso,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+292,Corigliano D'Otranto,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+293,Crispiano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+294,Cutrofiano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+295,Deliceto,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+296,Erchie,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+297,Fragagnano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+298,Gagliano Del Capo,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+299,Giuggianello,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+300,Giurdignano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+301,Guagnano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+302,Ischitella,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+303,Isole Tremiti,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+304,Leporano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+305,Lequile,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+306,Leverano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+307,Lizzanello,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+308,Martano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+309,Martignano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+310,Matino,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+311,Mattinata,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+312,Melendugno,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+313,Melissano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+314,Melpignano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+315,Miggiano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+316,Minervino Di Lecce,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+317,Monteiasi,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+318,Monteleone Di Puglia,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+319,Montemesola,30/11/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+320,Monteroni Di Lecce,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+321,Montesano Salentino,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+322,Morciano Di Leuca,26/10/1952,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+323,Motta Montecorvino,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+324,Muro Leccese,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+325,Neviano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+326,Novoli,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+327,Orsara Di Puglia,23/05/1954,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+328,Ortelle,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+329,Otranto,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+330,Palagianello,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+331,Palagiano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+332,Palmariggi,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+333,Parabita,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+334,Peschici,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+335,Pietramontecorvino,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+336,Poggiardo,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+337,Poggio Imperiale,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+338,Pulsano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+339,Rignano Garganico,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+340,Roccaforzata,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+341,Rocchetta Sant'Antonio,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+342,Rodi Garganico,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+343,Roseto Valfortore,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+344,Ruffano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+345,Salice Salentino,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+346,Salve,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+347,Sammichele Di Bari,23/05/1954,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+348,San Cesario Di Lecce,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+349,San Donaci,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+350,San Donato Di Lecce,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+351,San Giorgio Ionico,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+352,San Marco La Catola,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+353,San Michele Salentino,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+354,San Pancrazio Salentino,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+355,San Paolo Di Civitate,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+356,San Pietro In Lama,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+357,Sanarica,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+358,Sannicandro Di Bari,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+359,Sannicola,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+360,Sant'Agata Di Puglia,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+361,Santa Cesarea Terme,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+362,Scorrano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+363,Serracapriola,23/05/1954,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+364,Sogliano Cavour,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+365,Specchia,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+366,Spongano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+367,Stornara,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+368,Stornarella,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+369,Supersano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+370,Surbo,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+371,Taurisano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+372,Taviano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+373,Tiggiano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+374,Torchiarolo,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+375,Toritto,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+376,Torre Santa Susanna,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+377,Torricella,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+378,Tuglie,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+379,Uggiano La Chiesa,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+380,Valenzano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+381,Vico Del Gargano,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+382,Villa Castelli,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+383,Volturara Appula,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+384,Volturino,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+385,Zollino,27/05/1956,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+386,Andria,27/10/1957,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+387,Gioia Del Colle,27/10/1957,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+388,Putignano,24/11/1957,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+389,Ceglie Messafico,23/11/1958,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+390,Cisternino,23/11/1958,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+391,Laterza,09/11/1958,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+392,Manfredonia,12/10/1958,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+393,Minervino Murge,09/11/1958,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+394,Monte Sant'Angelo,12/10/1958,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+395,Mottola,09/11/1958,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+396,Ostuni,23/11/1958,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+397,Sammichele Di Bari,09/11/1958,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+398,San Marco In Lamis,12/10/1958,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+399,Santeramo In Colle,09/11/1958,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+400,Trinitapoli,12/10/1958,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+401,Acquarica Del Capo,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+402,Alberona,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+403,Alessano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+404,Alezio,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+405,Alliste,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+406,Andrano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+407,Arnesano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+408,Avetrana,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+409,Bagnolo Del Salento,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+410,Barletta,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+411,Biccari,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+412,Binetto,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+413,Bitetto,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+414,Bitritto,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+415,Botrugno,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+416,Cannole,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+417,Caprarica Di Lecce,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+418,Capurso,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+419,Carapelle,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+420,Carlantino,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+421,Carmiano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+422,Carosino,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+423,Carpignano Salentino,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+424,Carpino,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+425,Casalnuovo Monterotaro,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+426,Casalvecchio Di Puglia,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+427,Cassano Delle Murge,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+428,Castelluccio Dei Sauri,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+429,Castelluccio Valmaggiore,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+430,Castelnuovo Della Daunia,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+431,Castri Di Lecce,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+432,Castrignano De' Greci,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+433,Castrignano Del Capo,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+434,Cavallino,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+435,Celenza Valfortore,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+436,Cellamare,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+437,Celle San Vito,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+438,Chieuti,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+439,Collepasso,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+440,Corigliano D'Otranto,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+441,Corsano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+442,Crispiano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+443,Cursi,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+444,Cutrofiano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+445,Deliceto,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+446,Faggiano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+447,Fragagnano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+448,Gagliano Del Capo,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+449,Gallipoli,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+450,Giuggianello,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+451,Giurdignano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+452,Guagnano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+453,Ischitella,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+454,Leporano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+455,Lequile,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+456,Leverano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+457,Lizzanello,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+458,Martano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+459,Martignano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+460,Matino,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+461,Mattinata,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+462,Melendugno,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+463,Melpignano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+464,Miggiano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+465,Minervino Di Lecce,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+466,Monteleone Di Puglia,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+467,Montemesola,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+468,Monteparano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+469,Monteroni Di Lecce,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+470,Montesano Salentino,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+471,Muro Leccese,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+472,Nardo,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+473,Neviano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+474,Novoli,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+475,Ortelle,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+476,Palagianello,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+477,Palagiano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+478,Palmariggi,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+479,Parabita,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+480,Peschici,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+481,Pietramontecorvino,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+482,Poggiardo,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+483,Poggio Imperiale,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+484,Poggiorsini,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+485,Presicce,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+486,Pulsano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+487,Racale,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+488,Rignano Garganico,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+489,Roccaforzata,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+490,Rocchetta Sant'Antonio,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+491,Rodi Garganico,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+492,Roseto Valfortore,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+493,Ruffano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+494,Salice Salentino,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+495,Salve,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+496,San Cesario Di Lecce,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+497,San Donato Di Lecce,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+498,San Giorgio Ionico,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+499,San Marzano Di San Giuseppe,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+500,San Michele Salentino,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+501,San Pancrazio Salentino,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+502,San Paolo Di Civitate,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+503,San Pietro In Lama,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+504,Sanarica,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+505,Sannicandro Di Bari,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+506,Sannicola,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+507,Santa Cesarea Terme,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+508,Scorrano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+509,Sogliano Cavour,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+510,Soleto,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+511,Specchia,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+512,Spinazzola,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+513,Spongano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+514,Stornarella,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+515,Supersano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+516,Surano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+517,Surbo,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+518,Taurisano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+519,Taviano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+520,Tiggiano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+521,Torchiarolo,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+522,Toritto,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+523,Torre Santa Susanna,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+524,Torricella,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+525,Trani,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+526,Tuglie,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+527,Ugento,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+528,Uggiano La Chiesa,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+529,Veglie,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+530,Vico Del Gargano,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+531,Villa Castelli,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+532,Volturara Appula,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+533,Volturino,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+534,Zollino,06/11/1960,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+535,Torchiarolo,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+536,Celenza Valfortore,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+537,Corsano,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+538,Casamassima,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+539,Sannicandro di Bari,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+540,San Michele Salentino,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+541,Villa Castelli,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+542,Cagnano Varano,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+543,Ischitella,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+544,Margherita di Savoia,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+545,San Marco in Lamis,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+546,Sannicandro Garganico,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+547,San Paolo di Civitate,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+548,Alliste,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+549,Squinzano,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+550,Ginosa,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+551,Grottaglie,17/11/1968,Missing,structural_na_ballot_detail,low,Missing voti_non_validi or schede_bianche. Likely not recorded in source document for this election year.,note_structural_missing
+110,Adelfia,18/11/1973,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+111,Casamassima,18/11/1973,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+112,Sannicandro di Bari,18/11/1973,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+113,Fasano,18/11/1973,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+114,San Michele Salentino,18/11/1973,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+115,Villa Castelli,18/11/1973,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+116,Cagnano Varano,18/11/1973,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+117,Margherita di Savoia,18/11/1973,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+118,Monte Sant'Angelo,18/11/1973,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+119,San Marco in Lamis,18/11/1973,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+120,Sannicandro Garganico,18/11/1973,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+121,San Paolo di Civitate,18/11/1973,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+122,Alliste,18/11/1973,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+123,Ruffano,18/11/1973,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+124,Squinzano,18/11/1973,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+125,Ginosa,18/11/1973,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+410,Barletta,06/11/1960,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+449,Gallipoli,06/11/1960,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+472,Nardo,06/11/1960,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+512,Spinazzola,06/11/1960,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+525,Trani,06/11/1960,Missing,missing_totals,medium,Missing totalevotilista or totaleseggi.,manual_review
+389,Ceglie Messafico,23/11/1958,Geography,province_code_mismatch,medium,Province name does not match expected province from PRO_COM2011 code.,manual_review
+564,BARI,10/06/1962,Geography,province_code_mismatch,medium,Province name does not match expected province from PRO_COM2011 code.,manual_review

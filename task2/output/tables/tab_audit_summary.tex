@@ -1,0 +1,33 @@
+\begin{table}[H]
+\centering
+\caption{\label{tab:audit-summary}Data Audit Summary: Flagged Issues by Category and Severity}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{threeparttable}
+\begin{tabular}[t]{llllr}
+\toprule
+Category & Check & Severity & Action & N\\
+\midrule
+Vote\_logic & votanti\_gt\_elettori & critical & manual\_review & 2\\
+Duplicates & near\_duplicate & high & manual\_review & 10\\
+Seat\_accounting & seat\_total\_mismatch & high & manual\_review & 7\\
+Vote\_accounting & vote\_total\_mismatch & high & manual\_review & 30\\
+Vote\_accounting & listvote\_total\_mismatch & high & manual\_review & 9\\
+\addlinespace
+Geography & province\_code\_mismatch & medium & manual\_review & 2\\
+Missing & missing\_totals & medium & manual\_review & 21\\
+OCR\_name & name\_code\_mismatch & medium & manual\_review\_name & 77\\
+Vote\_logic & extreme\_turnout & medium & manual\_review & 3\\
+Missing & structural\_na\_ballot\_detail & low & note\_structural\_missing & 442\\
+\addlinespace
+OCR\_name & preposition\_capitalization & low & auto\_correct\_prepositions & 46\\
+OCR\_name & all\_caps\_comune & low & auto\_correct\_to\_title\_case & 26\\
+OCR\_name & spurious\_spaces & low & auto\_correct\_merge\_words & 1\\
+Vote\_accounting & schede\_bianche\_in\_invalidi & low & note\_coding\_convention & 105\\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item Severity levels: critical (logically impossible values), high (accounting identity failures or duplicates), medium (plausible but suspicious values requiring review), low (cosmetic or structural issues correctable automatically). N = number of flagged observations per check.
+\end{tablenotes}
+\end{threeparttable}}
+\end{table}
